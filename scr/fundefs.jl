@@ -5,7 +5,7 @@ function diophantine(z,m)
     @rput m
 
     R"""
-    library(nilde)
+    library(nilde)  
 
     num_sols <-rep(0,lz)
     sols <- list(lz)
